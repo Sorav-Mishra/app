@@ -1,0 +1,93 @@
+/* Remove horizontal scrollbar from the entire page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+body {
+  width: 100%;
+  max-width: 100vw;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f10f5e1; /* Lighter shade of blue */
+  padding: 12px 20px;
+  position: relative;
+  height: 70px;
+  width: 100%;
+  max-width: 100vw;
+  overflow: hidden; /* Ensures no overflow */
+}
+
+/* Ensures text remains centered */
+.nav-center {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item {
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-item:hover {
+  color: #ffcc00; /* Hover color */
+}
+
+/* Profile icon positioned on the right */
+.nav-profile {
+  position: absolute;
+  right: 20px;
+}
+
+.profile-icon {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile-icon:hover {
+  transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav-center {
+    gap: 15px;
+  }
+
+  .nav-item {
+    font-size: 16px;
+  }
+
+  .profile-icon {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav-center {
+    gap: 10px;
+  }
+
+  .nav-item {
+    font-size: 14px;
+  }
+
+  .profile-icon {
+    width: 28px;
+    height: 28px;
+  }
+}

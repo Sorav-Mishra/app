@@ -1,0 +1,245 @@
+/* .mcq-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.progress-bar-wrapper {
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 100%;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+}
+
+.progress-bar {
+  display: flex;
+  gap: 10px;
+  width: max-content;
+}
+
+.progress-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border: 2px solid gray;
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.correct {
+  background-color: green;
+  color: white;
+}
+
+.wrong {
+  background-color: red;
+  color: white;
+}
+
+.neutral {
+  background-color: gray;
+  color: white;
+}
+
+.active {
+  border: 2px solid black;
+}
+
+.stats {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.question-header {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.exam-name {
+  font-weight: bold;
+  color: blue;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.option-btn {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.option-btn.correct {
+  background-color: green;
+  color: white;
+}
+
+.option-btn.wrong {
+  background-color: red;
+  color: white;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.prev-btn,
+.next-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+.prev-btn:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+@media (max-width: 600px) {
+  .mcq-container {
+    padding: 10px;
+  }
+} */
+
+.mcq-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.progress-bar-wrapper {
+  overflow-x: auto;
+  white-space: nowrap;
+  width: 100%;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+}
+
+.progress-bar {
+  display: flex;
+  gap: 10px;
+  width: max-content;
+}
+
+.progress-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border: 2px solid gray;
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.correct {
+  background-color: green;
+  color: white;
+}
+
+.wrong {
+  background-color: red;
+  color: white;
+}
+
+.neutral {
+  background-color: gray;
+  color: white;
+}
+
+.active {
+  border: 2px solid black;
+}
+
+.stats {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.question-header {
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.exam-name {
+  font-weight: bold;
+  color: blue;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: left;
+}
+
+.option-btn {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+  text-align: left;
+}
+
+.option-btn.correct {
+  background-color: green;
+  color: white;
+}
+
+.option-btn.wrong {
+  background-color: red;
+  color: white;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.prev-btn,
+.next-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: black;
+  color: white;
+}
+
+.prev-btn:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+@media (max-width: 600px) {
+  .mcq-container {
+    padding: 10px;
+  }
+}
